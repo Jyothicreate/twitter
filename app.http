@@ -1,0 +1,40 @@
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username": "JoeBiden",
+    "password": "biden@123"
+}
+
+
+POST http://localhost:3000/register/
+
+
+GET http://localhost:3000/user/tweets/feed/
+
+GET http://localhost:3000/user/following/
+
+GET http://localhost:3000/user/followers/
+
+GET http://localhost:3000/tweets/:tweetId/
+
+GET http://localhost:3000/tweets/:tweetId/likes/
+
+POST http://localhost:3000/user/tweets/
+
+
+DELETE http://localhost:3000/tweets/:tweetId/
+
+
+POST http://localhost:3000/user/tweets/
+
+
+
+
+
+GET http://localhost:3000/user/tweets/
+
+GET http://localhost:3000'/tweets/:tweetId/replies/
+
+
